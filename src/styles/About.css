@@ -1,0 +1,39 @@
+body,
+html {
+  background-color: rgb(253, 237, 207);
+}
+
+.Aboutme {
+  font-size: 70px;
+  color: rgb(250, 1, 1);
+  text-align: center;
+}
+
+img {
+  height: 350px;
+  width: 350px;
+  border-radius: 20%;
+  border: 10px solid #ddd;
+}
+
+img:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0, 185, 247, 0.5);
+}
+
+.container {
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.aboutmetext {
+  font-size: 25px;
+}
+
+.redcolor {
+  color: rgb(250, 1, 1);
+  font-weight: bolder;
+}
