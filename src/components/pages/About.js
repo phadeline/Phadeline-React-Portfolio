@@ -23,7 +23,7 @@ export default function About() {
           </p>
         </div>
         <div className="image col-lg-6 col-sm-12 text-center ">
-          <img className="myimage" src={image}></img>
+          <img className="myimage" src={image} alt="Phadeline Evra"></img>
         </div>
       </div>
     </div>

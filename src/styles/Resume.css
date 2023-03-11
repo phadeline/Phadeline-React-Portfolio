@@ -1,0 +1,14 @@
+.skillsText {
+  flex-wrap: wrap;
+  background-color: aliceblue;
+}
+
+.allIcons {
+  background-color: red;
+  flex-wrap: wrap;
+}
+
+.resume {
+  background-color: aquamarine;
+}
+
