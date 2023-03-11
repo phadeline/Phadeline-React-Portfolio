@@ -4,8 +4,8 @@ import image from "../images/myimage.jpg";
 
 export default function About() {
   return (
-    <div class="container" className="Aboutcontainer">
-      <div class="row align-items-center">
+    <div className="container Aboutcontainer">
+      <div className="row align-items-center col-lg-12 text-center">
         <div className="Aboutmediv" class="col-lg-6 col-sm-12">
           <h1 className="Aboutme">About Me</h1>
           <p className="aboutmetext">
@@ -22,7 +22,7 @@ export default function About() {
             I never want to stop experiencing it.
           </p>
         </div>
-        <div className="image" class="col-lg-6 col-sm-12 text-center ">
+        <div className="image col-lg-6 col-sm-12 text-center ">
           <img className="myimage" src={image}></img>
         </div>
       </div>
