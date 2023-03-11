@@ -9,18 +9,18 @@ html {
   text-align: center;
 }
 
-img {
+.myimage {
   height: 350px;
   width: 350px;
   border-radius: 20%;
   border: 10px solid #ddd;
 }
 
-img:hover {
+.myimage:hover {
   box-shadow: 5px 5px 5px 5px rgba(0, 185, 247, 0.5);
 }
 
-.container {
+.Aboutcontainer {
   margin-top: 20px;
   position: absolute;
   top: 50%;

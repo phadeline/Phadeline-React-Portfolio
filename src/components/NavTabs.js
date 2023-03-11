@@ -6,7 +6,12 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#About">
+        <a
+          class="navbar-brand"
+          href="#About"
+          onClick={() => handlePageChange("About")}
+          className={currentPage === "About" ? "nav-link active" : "nav-link"}
+        >
           Phadeline Evra
         </a>
         <button

@@ -4,7 +4,7 @@ import image from "../images/myimage.jpg";
 
 export default function About() {
   return (
-    <div class="container" className="container">
+    <div class="container" className="Aboutcontainer">
       <div class="row align-items-center">
         <div className="Aboutmediv" class="col-lg-6 col-sm-12">
           <h1 className="Aboutme">About Me</h1>
@@ -23,7 +23,7 @@ export default function About() {
           </p>
         </div>
         <div className="image" class="col-lg-6 col-sm-12 text-center ">
-          <img src={image}></img>
+          <img className="myimage" src={image}></img>
         </div>
       </div>
     </div>
