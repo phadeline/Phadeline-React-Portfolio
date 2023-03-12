@@ -1,14 +1,17 @@
 import React from "react";
 import "../../styles/Resume.css";
 import MERN from "../images/MERNStack.png";
+import pdf from "../images/Resume.pdf";
 
 export default function Resume() {
   return (
-    <div className="everything d-flex flex-lg-row flex-sm-column">
+    <div className="everything d-flex flex-lg-column flex-sm-column align-items-center">
       <div className="resume col-lg-4 d-flex justify-content-center">
-        <h4 className="download">Download Resume</h4>
+        <a href={pdf}>
+          <h4 className="download">Download Resume</h4>
+        </a>
       </div>
-      <div className="frontendBackend col-lg-8 col-sm-12">
+      <div className="frontendBackend col-lg-8 col-sm-12 d-flex flex-lg-column flex-sm-column">
         <div className="skillsText text-center">
           <h3 className="skills">SKILLS</h3>
         </div>

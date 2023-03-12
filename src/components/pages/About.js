@@ -6,12 +6,12 @@ export default function About() {
   return (
     <div className="container Aboutcontainer">
       <div className="row align-items-center col-lg-12 text-center">
-        <div className="Aboutmediv" class="col-lg-6 col-sm-12">
+        <div className="Aboutmediv col-lg-6 col-sm-12">
           <h1 className="Aboutme">About Me</h1>
           <p className="aboutmetext">
             I've always been <span className="redcolor"> interested </span>in
             coding but never pursued it because I assumed that I wouldn't be
-            good at it. But, I took a{" "}
+            good at it. But, I took a
             <span className="redcolor">leap of faith </span>
             and thought myself HTML and CSS. Overtime, I realized that what I
             <span className="redcolor"> love </span>about coding was how
