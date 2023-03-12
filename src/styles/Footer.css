@@ -1,0 +1,12 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  background: rgba(1, 48, 72, 0.313);
+}
+
+.checkout {
+  text-align: center;
+  color: white;
+}
