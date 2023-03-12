@@ -1,14 +1,156 @@
-.skillsText {
-  flex-wrap: wrap;
-  background-color: aliceblue;
+html,
+body {
+  background-color: white;
 }
 
 .allIcons {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.155);
+  border-radius: 20px;
+  border-style: groove;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .resume {
   background-color: aquamarine;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
 }
 
+.download {
+  background-color: red;
+  width: fit-content;
+  padding: 20px;
+  border-style:dashed;
+}
+
+.everything {
+  padding: 8% 0;
+  background-color: white(253, 237, 207);
+}
+
+.skills {
+  padding: 20px;
+  font-size: 50px;
+  color: rgba(6, 6, 199, 0.799);
+  background-color: rgba(255, 0, 0, 0.155);
+  border-radius: 20px;
+  border-style: groove;
+}
+
+.backendtext,
+.frontendtext {
+  width: fit-content;
+  border-radius: 20px;
+  border-style: double;
+  padding: 10px;
+  font-size: 20px;
+  background-color: lightblue;
+}
+
+.frontEnd,
+.backEnd {
+  margin: 10px;
+}
+
+.icons {
+  margin: 5px 10px;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: rgb(204, 241, 254);
+}
+
+.tech {
+  position: absolute;
+  left: 0;
+  margin-right: 20px;
+}
+
+.icons:hover {
+  background-color: darkblue;
+  border-style: groove;
+}
+
+p {
+  display: none;
+}
+
+.HTMLimage:hover + .HTML {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.CSSimage:hover + .CSS {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.javascriptimage:hover + .javascript {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.bootstrapimage:hover + .bootstrap {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.reactimage:hover + .react {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.crudimage:hover + .crud {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.restimage:hover + .rest {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.databaseimage:hover + .database {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.mernimage:hover + .mern {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.mongodbimage:hover + .mongodb {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.mysqlimage:hover + .mysql {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.expressimage:hover + .express {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.nodeimage:hover + .node {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
