@@ -1,0 +1,48 @@
+/* body {
+  background-color: green;
+} */
+
+.email,
+.emailbody {
+  border-style: ridge;
+  background-color: aliceblue;
+}
+
+.emailbody {
+  margin: 30px 0px;
+  padding-bottom: 70px;
+}
+
+/* .formContainer {
+  border-style: ridge;
+  height: 100vh;
+}  */
+
+/* .form {
+  height: 70vh;
+  position: relative;
+  top: 20vh;
+} */
+
+/* .submit {
+  margin: 20px;
+} */
+
+/* .formContainer {
+  height: 50vh;
+  position: relative;
+  padding: 10% 0;
+  margin: 20px;
+} */
+
+.allContainer {
+  margin: 300px 50px 100px 50px;
+}
+
+.inquire {
+  color: rgb(103, 179, 247);
+}
+
+.portfolio{
+    color: rgb(2, 111, 207);
+}
