@@ -1,7 +1,4 @@
-/* body,
-html {
-  background-color: rgb(253, 237, 207);
-} */
+
 
 .email,
 .emailbody {
@@ -17,7 +14,7 @@ html {
 .allContainer {
   /* padding: 300px 50px 100px 50px; */
   padding: 30vh 0vh;
-  background-color: rgb(253, 237, 207);
+  background-color: rgba(221, 219, 219, 0.485);
 }
 
 .inquire {
@@ -29,5 +26,3 @@ html {
   color: rgb(2, 111, 207);
   margin-left: 10px;
 }
-
-.submit {background-color: red;}

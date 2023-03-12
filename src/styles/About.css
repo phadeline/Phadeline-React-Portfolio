@@ -1,6 +1,6 @@
 body,
 html {
-  background-color: rgb(253, 237, 207);
+  background-color: rgba(221, 219, 219, 0.485);
 }
 
 .Aboutme {
@@ -20,15 +20,6 @@ html {
   box-shadow: 5px 5px 5px 5px rgba(0, 185, 247, 0.5);
 }
 
-.Aboutcontainer {
-  margin-top: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
 .aboutmetext {
   font-size: 25px;
 }
@@ -36,4 +27,9 @@ html {
 .redcolor {
   color: rgb(250, 1, 1);
   font-weight: bolder;
+}
+
+.Aboutcontainer {
+  background-color: rgba(221, 219, 219, 0.485);
+  padding: 10%;
 }
