@@ -41,7 +41,7 @@ function Form() {
   // };
 
   return (
-    <div className="d-flex flex-row allContainer">
+    <div className="d-flex flex-lg-row flex-sm-column allContainer">
       <div className="col-lg-6">
         <h2 className="portfolio">Thank You For Viewing my portfolio!</h2>
         <h3 className="inquire">
@@ -50,17 +50,17 @@ function Form() {
         </h3>
       </div>
 
-      <div className="formContainer col-lg-6">
+      <div className="formContainer col-lg-6 col-sm-12">
         <form
-          className="form d-flex flex-column"
+          className="form d-flex flex-column col-sm-12"
           action={`mailto:phadelinee@gmail.com?subject=Inquiry&body=${emailbody}`}
           method="POST"
           encType="text/plain"
           name="EmailForm"
         >
-          <div className="">
+          <div className="text-center">
             <input
-              className="email col-lg-6"
+              className="email col-lg-6 col-sm-12 col-md-6"
               value={email}
               name="email"
               onChange={handleInputChange}
@@ -68,9 +68,9 @@ function Form() {
               placeholder="Email"
             />
           </div>
-          <div className="textarea">
+          <div className="textarea text-center">
             <textarea
-              className="emailbody col-lg-6"
+              className="emailbody col-lg-6 col-sm-12 col-md-6"
               value={emailbody}
               name="message"
               onChange={handleInputChange}
@@ -79,7 +79,7 @@ function Form() {
             />
           </div>
           {/* <a href={`mailto:phadelinee@gmail.com?subject=Inquiry&}`}> */}
-          <div className="submit col-lg-6 text-center">
+          <div className="submit d-flex justify-content-center text-center">
             <button type="submit" value="Submit">
               Submit
             </button>

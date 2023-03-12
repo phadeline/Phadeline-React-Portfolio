@@ -1,11 +1,12 @@
-/* body {
-  background-color: green;
+/* body,
+html {
+  background-color: rgb(253, 237, 207);
 } */
 
 .email,
 .emailbody {
   border-style: ridge;
-  background-color: aliceblue;
+  background-color: rgb(204, 229, 251);
 }
 
 .emailbody {
@@ -13,36 +14,20 @@
   padding-bottom: 70px;
 }
 
-/* .formContainer {
-  border-style: ridge;
-  height: 100vh;
-}  */
-
-/* .form {
-  height: 70vh;
-  position: relative;
-  top: 20vh;
-} */
-
-/* .submit {
-  margin: 20px;
-} */
-
-/* .formContainer {
-  height: 50vh;
-  position: relative;
-  padding: 10% 0;
-  margin: 20px;
-} */
-
 .allContainer {
-  margin: 300px 50px 100px 50px;
+  /* padding: 300px 50px 100px 50px; */
+  padding: 30vh 0vh;
+  background-color: rgb(253, 237, 207);
 }
 
 .inquire {
-  color: rgb(103, 179, 247);
+  color: rgb(2, 111, 207);
+  margin-left: 10px;
 }
 
-.portfolio{
-    color: rgb(2, 111, 207);
+.portfolio {
+  color: rgb(2, 111, 207);
+  margin-left: 10px;
 }
+
+.submit {background-color: red;}

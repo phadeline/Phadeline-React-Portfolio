@@ -13,7 +13,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
-          Phadeline Evra
+          <h2 className="myName">Phadeline Evra</h2>
         </a>
         <button
           className="navbar-toggler"
@@ -33,7 +33,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                 href="#About"
                 onClick={() => handlePageChange("About")}
                 className={
-                  currentPage === "About" ? "nav-link active" : "nav-link"
+                  currentPage === "About"
+                    ? "nav-link active bg-secondary text-warning"
+                    : "nav-link"
                 }
               >
                 About
@@ -44,7 +46,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                 href="#Portfolio"
                 onClick={() => handlePageChange("Portfolio")}
                 className={
-                  currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+                  currentPage === "Portfolio"
+                    ? "nav-link active bg-secondary text-warning"
+                    : "nav-link"
                 }
               >
                 Portfolio
@@ -55,7 +59,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                 href="#Resume"
                 onClick={() => handlePageChange("Resume")}
                 className={
-                  currentPage === "Resume" ? "nav-link active" : "nav-link"
+                  currentPage === "Resume"
+                    ? "nav-link active bg-secondary text-warning"
+                    : "nav-link"
                 }
               >
                 Resume
@@ -66,7 +72,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                 href="#Contact"
                 onClick={() => handlePageChange("Contact")}
                 className={
-                  currentPage === "Contact" ? "nav-link active" : "nav-link"
+                  currentPage === "Contact"
+                    ? "nav-link active bg-secondary text-warning"
+                    : "nav-link"
                 }
               >
                 Contact

@@ -8,7 +8,7 @@ export default function Resume() {
     <div className="everything d-flex flex-lg-column flex-sm-column align-items-center">
       <div className="resume col-lg-4 d-flex justify-content-center">
         <a href={pdf} target="_blank" rel="noreferrer">
-          <h4 className="download">Download Resume</h4>
+          <h4 className="download">Download My Resume</h4>
         </a>
       </div>
       <div className="frontendBackend col-lg-8 col-sm-12 d-flex flex-lg-column flex-sm-column">
