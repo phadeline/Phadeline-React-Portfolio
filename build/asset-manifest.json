@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.321605d7.css",
+    "main.js": "/static/js/main.f78a0a50.js",
+    "static/media/weather.png": "/static/media/weather.f5284d73e0f40ce182fc.png",
+    "static/media/musicplaylist.png": "/static/media/musicplaylist.96be789caa88b9d97c6d.png",
+    "static/media/myimage.jpg": "/static/media/myimage.2887a98a5b4d774699ed.jpg",
+    "static/media/gamereview.png": "/static/media/gamereview.19847213856bf08914a7.png",
+    "static/media/Resume.pdf": "/static/media/Resume.91f7d531751898c955a0.pdf",
+    "static/media/MERNStack.png": "/static/media/MERNStack.9e1d932eb9c7e22f4563.png",
+    "index.html": "/index.html",
+    "main.321605d7.css.map": "/static/css/main.321605d7.css.map",
+    "main.f78a0a50.js.map": "/static/js/main.f78a0a50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.321605d7.css",
+    "static/js/main.f78a0a50.js"
+  ]
+}
