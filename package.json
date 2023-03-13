@@ -1,5 +1,6 @@
 {
   "name": "phadeline-react-portfolio",
+  "homepage": "https://myusername.github.io/Phadeline-React-Portfolio",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
