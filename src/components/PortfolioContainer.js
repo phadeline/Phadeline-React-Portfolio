@@ -29,8 +29,8 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <div>
-        <header>
+      <header>
+        <navigation>
           {/* We are passing the currentPage from state and the function to update it */}
           <NavTabs
             currentPage={currentPage}
@@ -39,8 +39,8 @@ export default function PortfolioContainer() {
           {/* Here we are calling the renderPage method which will return a component  */}
 
           {renderPage()}
-        </header>
-      </div>
+        </navigation>
+      </header>
       <footer>
         <Footer />
       </footer>
