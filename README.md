@@ -26,10 +26,8 @@ No installation is required.
 
 ## Usage
 
-- [Website for the App](https://fast-anchorage-33093.herokuapp.com/)
+- [Website for the App](https://phadeline.github.io/Phadeline-React-Portfolio/)
 
-- Photo of the web app:
-  ![Photo](https://user-images.githubusercontent.com/112015433/221001016-0299d8a4-30da-4c0f-85c5-50a51e59e5aa.png)
 
 ## Tests
 
