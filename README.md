@@ -4,7 +4,7 @@
 
 ## Description
 
-This is my Portfolio made ony using React and CSS.
+This is my Portfolio made ony using React, bootstrap and CSS deployed to github pages.
 
 ## Table of Contents
 
