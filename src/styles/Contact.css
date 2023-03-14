@@ -1,5 +1,3 @@
-
-
 .email,
 .emailbody {
   border-style: ridge;
@@ -25,4 +23,10 @@
 .portfolio {
   color: rgb(2, 111, 207);
   margin-left: 10px;
+}
+
+.error-text {
+  color: red;
+  margin: auto 0;
+  padding: auto 0;
 }

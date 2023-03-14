@@ -7,7 +7,7 @@ function Form() {
   const [email, setEmail] = useState("");
 
   const [emailbody, setemailbody] = useState("");
-  // const [errorMessage, setErrorMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -20,25 +20,32 @@ function Form() {
       setEmail(inputValue);
     } else if (inputType === "message") {
       setemailbody(inputValue);
+      console.log(inputValue);
     }
   };
 
-  // const handleFormSubmit = (e) => {
-  //   // Preventing the default behavior of the form submit (which is to refresh the page)
-  //   e.preventDefault();
+  //
+  const notification = () => {
+    let emailblank = document.querySelector(".email").value;
 
-  //   if (!email || !emailbody) {
-  //     setErrorMessage(
-  //       `Must enter a valid email and message cannot be left blank`
-  //     );
-  //     return;
-  //   }
-  //   // If everything goes according to plan, we want to clear out the input after a successful registration.
+    if (emailblank === "") {
+      setErrorMessage(`Must enter a valid email address!`);
 
-  //   setemailbody("");
-  //   setEmail("");
-  //   setErrorMessage("");
-  // };
+      return;
+    }
+    setErrorMessage("");
+  };
+
+  const alert = () => {
+    let messageblank = document.querySelector(".emailbody").value;
+
+    if (messageblank === "") {
+      setErrorMessage(`Message cannot be left empty!`);
+
+      return;
+    }
+    setErrorMessage("");
+  };
 
   return (
     <div className="d-flex flex-lg-row flex-sm-column allContainer">
@@ -66,7 +73,13 @@ function Form() {
               onChange={handleInputChange}
               type="email"
               placeholder="Email"
+              onBlur={notification}
             />
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
           </div>
           <div className="textarea text-center">
             <textarea
@@ -76,21 +89,16 @@ function Form() {
               onChange={handleInputChange}
               type="emailbody"
               placeholder="Enter message here"
+              onBlur={alert}
             />
           </div>
-          {/* <a href={`mailto:phadelinee@gmail.com?subject=Inquiry&}`}> */}
+
           <div className="submit d-flex justify-content-center text-center">
             <button type="submit" value="Submit">
               Submit
             </button>
           </div>
-          {/* </a> */}
         </form>
-        {/* {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )} */}
       </div>
     </div>
   );
