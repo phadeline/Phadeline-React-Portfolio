@@ -162,3 +162,14 @@
   color: white;
   font-size: 20px;
 }
+
+@media screen and (max-width: 550px) {
+  .everything {
+    display: flex;
+    flex-direction: column;
+  }
+  .frontendBackend {
+    display: flex;
+    flex-direction: column;
+  }
+}
