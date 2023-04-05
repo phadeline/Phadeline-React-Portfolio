@@ -3,6 +3,7 @@ import "../../styles/Portfolio.css";
 import musicplaylist from "../images/musicplaylist.png";
 import gamereview from "../images/gamereview.png";
 import weather from "../images/weather.png";
+import speeddater from "../images/speeddater.png"
 
 export default function Portfolio() {
   return (
@@ -12,11 +13,11 @@ export default function Portfolio() {
       </div>
 
       <div className="Projects row">
-        <div className="project col-lg-5 col-sm-12">
+      <div className="project col-lg-5 col-sm-12">
           <img
-            src={gamereview}
+            src={speeddater}
             className="projectImage"
-            alt="Game Review App"
+            alt="Dating App"
           ></img>
           <div className="middle">
             <a
@@ -31,6 +32,35 @@ export default function Portfolio() {
 
             <a
               href="https://video-game-reviewer-test.herokuapp.com/login"
+              target="_blank"
+            >
+              <h4 className="text">WEBSITE</h4>
+            </a>
+          </div>
+          <div className="projectcontainer">
+            <h3>Game Review App</h3>
+            <h4>MongoDB/Mongoose, GraphQL, NodeJS, ApolloServer</h4>
+          </div>
+        </div>
+        <div className="project col-lg-5 col-sm-12">
+          <img
+            src={gamereview}
+            className="projectImage"
+            alt="Game Review App"
+          ></img>
+          <div className="middle">
+            <a
+              href="https://github.com/phadeline/Speed-Dater"
+              target="_blank"
+            >
+              <img
+                className="icon"
+                src="https://img.icons8.com/3d-fluency/94/null/github.png"
+              />
+            </a>
+
+            <a
+              href="https://speeddater.herokuapp.com/"
               target="_blank"
             >
               <h4 className="text">WEBSITE</h4>
