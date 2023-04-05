@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Phadeline-React-Portfolio/static/css/main.24eeb5eb.css",
-    "main.js": "/Phadeline-React-Portfolio/static/js/main.89b65ec7.js",
+    "main.js": "/Phadeline-React-Portfolio/static/js/main.b5d42fbe.js",
     "static/media/weather.png": "/Phadeline-React-Portfolio/static/media/weather.f5284d73e0f40ce182fc.png",
     "static/media/musicplaylist.png": "/Phadeline-React-Portfolio/static/media/musicplaylist.96be789caa88b9d97c6d.png",
     "static/media/myimage.jpg": "/Phadeline-React-Portfolio/static/media/myimage.2887a98a5b4d774699ed.jpg",
@@ -10,10 +10,10 @@
     "static/media/MERNStack.png": "/Phadeline-React-Portfolio/static/media/MERNStack.9e1d932eb9c7e22f4563.png",
     "index.html": "/Phadeline-React-Portfolio/index.html",
     "main.24eeb5eb.css.map": "/Phadeline-React-Portfolio/static/css/main.24eeb5eb.css.map",
-    "main.89b65ec7.js.map": "/Phadeline-React-Portfolio/static/js/main.89b65ec7.js.map"
+    "main.b5d42fbe.js.map": "/Phadeline-React-Portfolio/static/js/main.b5d42fbe.js.map"
   },
   "entrypoints": [
     "static/css/main.24eeb5eb.css",
-    "static/js/main.89b65ec7.js"
+    "static/js/main.b5d42fbe.js"
   ]
 }
