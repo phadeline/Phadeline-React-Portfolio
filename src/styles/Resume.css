@@ -163,7 +163,7 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 590px) {
   .everything {
     display: flex;
     flex-direction: column;
