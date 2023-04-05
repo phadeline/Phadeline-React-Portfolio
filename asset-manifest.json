@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Phadeline-React-Portfolio/static/css/main.24eeb5eb.css",
-    "main.js": "/Phadeline-React-Portfolio/static/js/main.d9476a21.js",
+    "main.css": "/Phadeline-React-Portfolio/static/css/main.958abf14.css",
+    "main.js": "/Phadeline-React-Portfolio/static/js/main.f11ec00a.js",
     "static/media/weather.png": "/Phadeline-React-Portfolio/static/media/weather.f5284d73e0f40ce182fc.png",
     "static/media/speeddater.png": "/Phadeline-React-Portfolio/static/media/speeddater.dfe98c8afb11d6e8a471.png",
     "static/media/musicplaylist.png": "/Phadeline-React-Portfolio/static/media/musicplaylist.96be789caa88b9d97c6d.png",
@@ -10,11 +10,11 @@
     "static/media/Resume.pdf": "/Phadeline-React-Portfolio/static/media/Resume.91f7d531751898c955a0.pdf",
     "static/media/MERNStack.png": "/Phadeline-React-Portfolio/static/media/MERNStack.9e1d932eb9c7e22f4563.png",
     "index.html": "/Phadeline-React-Portfolio/index.html",
-    "main.24eeb5eb.css.map": "/Phadeline-React-Portfolio/static/css/main.24eeb5eb.css.map",
-    "main.d9476a21.js.map": "/Phadeline-React-Portfolio/static/js/main.d9476a21.js.map"
+    "main.958abf14.css.map": "/Phadeline-React-Portfolio/static/css/main.958abf14.css.map",
+    "main.f11ec00a.js.map": "/Phadeline-React-Portfolio/static/js/main.f11ec00a.js.map"
   },
   "entrypoints": [
-    "static/css/main.24eeb5eb.css",
-    "static/js/main.d9476a21.js"
+    "static/css/main.958abf14.css",
+    "static/js/main.f11ec00a.js"
   ]
 }
