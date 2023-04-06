@@ -29,7 +29,7 @@ export default function Portfolio() {
           </div>
           <div className="projectcontainer">
             <h3>Speed Dater App</h3>
-            <h4>MongoDB/Mongoose, GraphQL, NodeJS, ApolloServer</h4>
+            <h4>MERN Stack, GraphQL, ApolloServer</h4>
           </div>
         </div>
         <div className="project col-lg-5 col-sm-12">
